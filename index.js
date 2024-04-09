@@ -20,7 +20,7 @@ function hasTargetSum(array, target) {
 // Write the Big O time complexity of your function here
 // This would be linear as it iterates through each.
 
-//Psuedocode
+/* Psuedocode
 function hasTargetSum(array, target):
     // Create an empty set to store seen numbers
     seenNumbers = new Set()
@@ -40,6 +40,7 @@ function hasTargetSum(array, target):
 
     // If no such pair is found in the array, return false
     return false
+    */
 
 // Add written explanation of your solution here
 // In summary, the hasTargetSum function uses a set (seenNumbers) to keep track of numbers as it goes through the array. For each number in the array, it calculates the complement needed to reach the target sum. If this complement has been seen before (stored in the set), it means a pair of numbers in the array adds up to the target, and the function returns true. If no such pair is found after checking all numbers in the array, the function returns false. This function is a practical example of how data structures like sets can be used to efficiently solve problems in programming.
